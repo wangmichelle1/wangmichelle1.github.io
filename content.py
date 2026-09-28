@@ -23,6 +23,7 @@ SITE = {
 LINKS = [
     {"label": "GitHub", "url": "https://github.com/wangmichelle1"},
     {"label": "LinkedIn", "url": "https://www.linkedin.com/in/michelle-wang-b0a917107"},
+    {"label": "Tableau", "url": "https://public.tableau.com/app/profile/michelle.wang3592"},
 ]
 
 ABOUT = """
