@@ -29,7 +29,7 @@ LINKS = [
 ABOUT = """
 I'm interested in anything data related, from building machine learning models and AI agents to
 designing databases and dashboards. I'm currently a Technology Analyst II on the Data Science/Machine
-Learning team at Fiserv, where I build agentic AI chatbots, ML models, and automated reporting pipelines.
+Learning team at Fiserv, where I build agentic AI chatbots, ML models, ETL pipelines, and automated reporting.
 
 I studied Data Science and Business Administration at Northeastern University, so I'm just as comfortable
 writing code as I am turning data into decisions for business stakeholders. I enjoy development roles
@@ -53,16 +53,21 @@ EXPERIENCE = [
         "dates": "June 2025 – Present",
         "location": "Berkeley Heights, NJ",
         "bullets": [
-            "Design and implement a chatbot using the Semantic Kernel framework, with a Router Agent and 20+ specialized "
+            "Design and implement a Python-based intelligent chatbot using the Semantic Kernel framework, with a Router Agent and 20+ specialized "
             "Azure AI Foundry agents (plus generic plugins), Azure AI Search that chooses traditional or hybrid search "
             "based on the prompt, and thread-based conversation history to preserve context for change managers’ queries.",
             "Build and maintain end-to-end lifecycle APIs for Azure AI Foundry agents (creation, update, deletion), with "
             "HMAC-secured authorization flows and role-based permissions to secure access to the chatbot and its plugins.",
-            "Engineer and iteratively refine ML models using data from MongoDB and PostgreSQL, working with product "
+            "Engineer and iteratively refine Python ML models using data from MongoDB and PostgreSQL, working with product "
             "managers to optimize performance and deliver insights for proactive risk mitigation.",
             "Develop an automated pipeline with Python, Crontab, and Azure Communication Services that generates 4+ daily "
             "reports of visualizations and KPI summaries on release readiness and change-driven incidents, giving "
             "leadership data and LLM-based insights to evaluate process effectiveness.",
+            "Build automated reporting pipelines using Jira, Power BI, and AI cost data through REST APIs to quantify "
+            "the ROI of AI adoption across engineering teams, highlighting measurable efficiency gains such as "
+            "increased story point completion per sprint and reduced ticket cycle time.",
+            "Develop and maintain Python ETL pipelines that ingest raw data from sources such as Devin, GitHub Copilot, "
+            "and AWS S3, transform and conform it in Python, and upsert the datasets into Snowflake for business dashboards.",
         ],
     },
     {
@@ -277,9 +282,9 @@ SKILLS = {
     "Data Skills": ["Agentic AI", "Machine Learning", "Data Analysis", "Data Visualization",
                     "Database Management", "Quality Assurance"],
     "Languages": ["Python", "SQL", "R", "JavaScript", "HTML", "CSS", "MATLAB"],
-    "Databases": ["PostgreSQL", "MySQL", "SQL Server", "Oracle", "MongoDB", "Redis", "Neo4j"],
+    "Databases": ["PostgreSQL", "MySQL", "SQL Server", "Oracle", "Snowflake", "MongoDB", "Redis", "Neo4j"],
     "ML & Data Libraries": ["Scikit-Learn", "Pandas", "NumPy", "Keras", "Matplotlib", "Seaborn"],
     "Visualization": ["Tableau", "Power BI", "Plotly Dash"],
-    "Tools & Platforms": ["Azure AI Foundry", "Databricks", "Git", "Jira", "Postman", "Jupyter",
+    "Tools & Platforms": ["Azure AI Foundry", "AWS", "Databricks", "Git", "Jira", "Postman", "Jupyter",
                           "Visual Studio", "PyCharm", "Excel", "PowerPoint"],
 }
